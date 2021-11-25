@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 int main()
 {
@@ -7,8 +6,9 @@ int main()
 
     for (int i = 0; target[i] != '\0'; i++)
     {
-        printf("%c/\n", target[i]);
+        printf("%c/", target[i]);
     }
+    puts("");
 
     return 0;
 }
