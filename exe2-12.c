@@ -7,7 +7,6 @@ int main()
     {
         printf("%s\n", target[j]);
     }
-    puts("");
 
     return 0;
 }
