@@ -7,7 +7,7 @@ int main()
 
     scanf("%s", target);
 
-    if (strcmp("A", target) == 0 | strcmp("B", target) == 0 | strcmp("C", target) == 0)
+    if (strcmp("A", target) == 0)
     {
         puts("正解です");
     }
