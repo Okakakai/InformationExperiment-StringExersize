@@ -3,7 +3,7 @@
 
 int main()
 {
-    char *target;
+    char target[1];
 
     scanf("%s", target);
 
